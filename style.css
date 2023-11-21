@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+
+.popins{
+    font-family: Poppins;
+}
+
+.sans{
+    font-family: cursive;
+}
+
+.blue{
+    color: blueviolet;
+}
+.navbar{
+    
+    display: flex;
+    background-color: #faf9f9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #faf9f9;
+}
+
+.navbar-logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu a{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-menu a:hover{
+    color: blueviolet;
+}
+
+.hero{
+    margin-top: 75px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px,40px;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.text{
+    margin-top: 60px;
+    font-size: x-large;
+}
+
+.img img{
+    width: 400px;
+    height: 600px;
+    border-radius: 35px;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.size{
+    width: 40px;
+}
+
+.stack{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 200px;
+    gap: 15px;
+}   
+
+.stack img{
+    max-width: 3%;
+}
+
+.about{
+    margin: 70px 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.image img{
+    border-radius: 15px;
+    height: 400px;
+    width: 600px;
+}
+
+
+.port{
+    margin-left: 200px;
+}
+
+.port h4{
+    color: blueviolet;
+}
+
+
+.folio{
+    display: flex;
+    margin: 30px 200px;
+    gap: 80px;
+}
+
+.picture img{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.folio-2{
+    display: flex;
+    margin: 10px 200px;
+    gap: 80px;
+}
+
+.picture-2 img{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.folio-3{
+    display: flex;
+    margin: 10px 200px;
+    gap: 80px;
+}
+
+.picture-3 img{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.folio-4{
+    display: flex;
+    margin: 20px 200px;
+    gap: 80px;
+}
+
+.picture-4 img{
+    width: 600px;
+    border-radius: 15px;
+}
+
+
+.blog{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.blog h4{
+    color: blueviolet;
+}
+
+.blogs{
+    display: flex;
+    margin: 10px 200px;
+    gap: 40px;
+}
+
+.b1 img{
+    width: 700px;
+    border-radius: 15px;
+}
+
+.t1 h3{
+    color: blueviolet;
+    justify-content: center;
+}
+
+.blogs-2{
+    display: flex;
+    margin: 20px 200px;
+    gap: 40px;
+    text-align: start;
+}
+
+.pics{
+    width: 450px;
+    border-radius: 15px;    
+}
+
+.contact{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -90px;
+    margin-right: 200px;
+    justify-content: space-between;  
+}
+
+.txt h4{
+    color: blueviolet;
+}
+
+.footer{
+    margin-top: 100px;
+    background-color: #2d2e32;
+    padding:50px;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials img{
+    width: 25px;
+    background-color: white;
+}
+
+.tex{
+    margin-left: 150px;
+}
+
+.socials{
+    margin-right: 200px;
+}
